@@ -1,6 +1,5 @@
 .project {
     display: flex;
-    text-align: center;
     align-items: center;
     gap: 15px; /* Space between image and text */
     padding: 20px;
