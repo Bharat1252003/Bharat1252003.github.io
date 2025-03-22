@@ -18,8 +18,8 @@
 }
 
 .project img {
-    width: 20px; /* Adjust as needed */
-    height: 20px;
+    width: 50px; /* Adjust as needed */
+    height: 50px;
     object-fit: cover;
     border-radius: 8px;
     margin-right: 20px;
