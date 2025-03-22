@@ -17,7 +17,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
 }
 
-a {
+.project-link a {
     display: flex;
     text-decoration: none; /* Remove link styling */
     color: inherit; /* Inherit color from the card */
