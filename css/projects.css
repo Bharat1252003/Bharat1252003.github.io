@@ -10,6 +10,8 @@
     width: 80%;
     max-width: 800px;
     transition: box-shadow 0.3s ease, transform 0.1s ease;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .project:hover {
