@@ -34,3 +34,42 @@ footer {
     color: white;
     padding: 1rem;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between projects */
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 80%;
+    max-width: 800px; /* Limit max width */
+}
+
+.project img {
+    width: 120px; /* Adjust as needed */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+}
+
+.project-info p {
+    margin: 5px 0;
+}
