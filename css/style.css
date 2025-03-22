@@ -61,10 +61,6 @@ footer {
     margin-right: 20px;
 }
 
-.project-info {
-    flex: 1;
-}
-
 .project-info h2 {
     margin: 0 0 10px 0;
     font-size: 1.4rem;
@@ -72,4 +68,14 @@ footer {
 
 .project-info p {
     margin: 5px 0;
+}
+
+.project-section {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
 }
