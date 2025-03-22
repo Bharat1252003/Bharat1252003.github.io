@@ -9,6 +9,19 @@
     margin: 20px auto; /* Centering */
     width: 80%;
     max-width: 800px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.project:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.project a {
+    display: flex;
+    text-decoration: none; /* Remove link styling */
+    color: inherit; /* Inherit color from the card */
+    width: 100%;
 }
 
 /* Project Image */
