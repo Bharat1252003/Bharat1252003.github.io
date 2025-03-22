@@ -9,7 +9,7 @@
     margin: 20px auto; /* Centering */
     width: 80%;
     max-width: 800px;
-    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    transition: box-shadow 0.3s ease, transform 0.1s ease;
 }
 
 .project:hover {
@@ -18,7 +18,7 @@
 }
 
 .project-link {
-    display: flex;
+    display: block;
     text-decoration: none; /* Remove link styling */
     color: inherit; /* Inherit color from the card */
     width: 100%;
@@ -39,7 +39,7 @@
 }
 
 .project-date {
-    position: absolute;
+    position: relative;
     bottom: 10px;
     right: 10px;
     font-size: 14px;
