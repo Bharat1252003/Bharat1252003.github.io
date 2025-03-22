@@ -13,7 +13,8 @@
 }
 
 .project:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
+    transform: translateY(-5px);
+    background-color: #fafafa; /* Change background color on hover */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
 }
 
