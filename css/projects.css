@@ -19,7 +19,6 @@
 }
 
 .project-link {
-    display: block;
     text-decoration: none; /* Remove link styling */
     color: inherit; /* Inherit color from the card */
 }
